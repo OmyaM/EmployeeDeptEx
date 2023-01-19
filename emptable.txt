@@ -1,0 +1,8 @@
+CREATE TABLE Employee 
+(empid INT, empname TEXT, empsal INT,empdob DATE,emploc TEXT);
+
+insert into Employee(empid,empname,empsal,empdob,emploc) values
+(654,'varad',45000,14-09-1979,'Mumbai'),
+(786,'yogesh',46090,22-12-1967,'Chennai'),
+(876,'vaibhav',23500,03-15-1999,'Pune'),
+(234,'mahesh',30000,30-07-1964,'Chennai');

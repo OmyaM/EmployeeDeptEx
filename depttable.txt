@@ -1,0 +1,18 @@
+CREATE TABLE Department 
+(deptid INT,deptname TEXT,deptloc TEXT);
+
+insert into department(deptid,deptname,deptloc) values
+
+(0001, 'Civil', 'Kolhapur'),
+
+(0002, 'Mechanical', 'Banglore'),
+
+(0005, 'Chemical', 'Kolhapur'),
+
+(0003, 'Electronics', 'Noida'),
+
+(0008, 'Electrical', 'Mumbai'),
+
+ (0004, 'Metallurgy', 'Patna'),
+
+(0007, 'IT', 'Banglore');
